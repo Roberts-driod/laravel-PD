@@ -7,6 +7,7 @@
             <div>
                 <a href="/books/{{ $book->id }}">Show</a>
                 <a href="/books/{{ $book->id }}/edit">Edit</a>
+                <a href="/books/{{ $book->id }}/updateDates">Edit date</a>
             </div>
         </li>
     @endforeach
