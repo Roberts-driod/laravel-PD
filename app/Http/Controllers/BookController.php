@@ -41,4 +41,17 @@ class BookController extends Controller
         $book->delete();
         return redirect('/books');
     }
+
+
+    public function update( Request $request , $id) {
+        $book = Book::find($id);
+        $book->update(([
+            'title' => $request['title'],
+            'author' => $request['author'],
+            'released_at' => $request['released_at'],
+        ]));
+
+
+        return redirect('/books');
+    }
 }
