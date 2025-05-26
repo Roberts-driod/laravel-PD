@@ -7,3 +7,8 @@
     <input type="date" name="released_at" placeholder="date goes here">
     <input type="submit" value="Create">
 </form>
+
+<?php
+//create ir salauzts
+
+?>
