@@ -1,6 +1,6 @@
 <h1>New book</h1>
 
-<form action="/books" method="post">
+<form action="/books/create" method="get ">
     @csrf
     <input type="text" name="title" placeholder="title goes here">
     <input type="text" name="author" placeholder="author goes here">
